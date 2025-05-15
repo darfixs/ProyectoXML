@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Concurso de Series Animadas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="titulo">Quiz de Series Animadas</h1>
+
+    <div class="seleccion-idioma">
+      <label for="idioma">Idioma / Language:</label>
+      <select id="idioma" onchange="cambiarIdioma()">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+
+    <div id="reloj">Tiempo: 0s</div>
+
+    <div id="quiz">
+      <div id="pregunta"></div>
+      <div id="respuestas"></div>
+      <button id="siguiente" onclick="siguientePregunta()">Siguiente</button>
+    </div>
+
+    <div id="resultado" style="display:none;"></div>
+  </div>
+
+  <script src="reloj.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
