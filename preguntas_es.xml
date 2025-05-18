@@ -7,7 +7,7 @@
   <!ELEMENT choice (#PCDATA)>
   <!ATTLIST question id CDATA #REQUIRED>
   <!ATTLIST choice correct (yes|no) 'no'>
-]>]>
+]>
 <test>
   <question id="1">
     <wording>¿Cuál es el nombre del padre en Los Simpson?</wording>
