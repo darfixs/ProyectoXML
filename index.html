@@ -1,35 +1,45 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Concurso de Series Animadas</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Quizz Baatman by darfixs</title>
+  <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
-  <div class="container">
-    <h1 id="titulo">Quiz de Series Animadas</h1>
+  <div class="contenedor">
 
-    <div class="seleccion-idioma">
-      <label for="idioma">Idioma:</label>
-      <select id="idioma" onchange="cambiarIdioma()">
-        <option value="es">Español</option>
-        <option value="en">English</option>
-      </select>
+     <!-- Pantalla 1: Bienvenida -->
+    <div id="pantalla-inicial">
+      <div class="overlay">
+        <h2> Bienvenido a la Batcueva</h2>
+        <h1>¿Cuánto sabes sobre Batman?</h1>
+        <button onclick="empezar('preguntas.xml', 'es')">🎮 Jugar</button>
+      </div>
     </div>
 
-    <div id="reloj">Tiempo: 0s</div>
+   <!-- Pantalla 2: Quizz -->
+    <div id="pantalla-quiz">
+      <div class="top-bar">
+        <div id="reloj">0s</div>
+        <div id="aciertos">0 / 0</div>
+      <!-- (switch para cambiar el idioma) -->
+        <label class="switch">
+          <input type="checkbox" id="idiomaSwitch" onchange="toggleIdioma()" />
+          <span class="slider"></span>
+        </label>
+      </div>
 
-    <div id="quiz">
       <div id="pregunta"></div>
       <div id="respuestas"></div>
-      <button id="siguiente" onclick="siguientePregunta()">Siguiente</button>
+
+      <div class="botonera" id="botonera">
+        <button id="btnAnterior" onclick="anteriorPregunta()">Anterior</button>
+        <button id="btnSiguiente" onclick="siguientePregunta()">Siguiente</button>
+      </div>
     </div>
-
-    <div id="resultado" style="display:none;"></div>
+   <!-- Pantalla 3: Resultado -->
+    <div id="resultado"></div>
   </div>
-
-  <script src="reloj.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
