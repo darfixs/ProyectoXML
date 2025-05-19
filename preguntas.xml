@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test SYSTEM "archivo.dtd">
+<test>
+  <question id="1">
+    <wording>¿Cuál es el verdadero nombre de Batman?</wording>
+    <choices>
+      <choice correct="yes">Bruce Wayne</choice>
+      <choice>Clark Kent</choice>
+      <choice>Peter Parker</choice>
+      <choice>Stephen Strange</choice>
+    </choices>
+  </question>
+
+  <question id="2">
+    <wording>¿Qué ciudad protege Batman?</wording>
+    <choices>
+      <choice>Metrópolis</choice>
+      <choice correct="yes">Gotham</choice>
+      <choice>Ciudad Gótica</choice>
+      <choice>Central City</choice>
+    </choices>
+  </question>
+
+  <question id="3">
+    <wording>¿Cuál es el nombre del mayordomo de Batman?</wording>
+    <choices>
+      <choice>James</choice>
+      <choice>Jarvis</choice>
+      <choice>Lucius</choice>
+      <choice correct="yes">Alfred</choice>
+
+    </choices>
+  </question>
+
+  <question id="4">
+    <wording>¿Quién es el enemigo más famoso de Batman?</wording>
+    <choices>
+      <choice>Lex Luthor</choice>
+      <choice>Duende Verde</choice>
+      <choice>Thanos</choice>
+      <choice correct="yes">El Joker</choice>
+    </choices>
+  </question>
+
+  <question id="5">
+    <wording>¿Qué evento traumático motivó a Bruce Wayne a convertirse en Batman?</wording>
+    <choices>
+      <choice correct="yes">La muerte de sus padres</choice>
+      <choice>Una explosión</choice>
+      <choice>Un accidente en laboratorio</choice>
+      <choice>Una invasión alienígena</choice>
+    </choices>
+  </question>
+
+  <question id="6">
+    <wording>¿Cuál es el vehículo principal de Batman?</wording>
+    <choices>
+      <choice>Batibicicleta</choice>
+      <choice>AutoInvisible</choice>
+      <choice correct="yes">Batimóvil</choice>
+      <choice>Supercoche</choice>
+    </choices>
+  </question>
+
+  <question id="7">
+    <wording>¿Qué alias usa Dick Grayson después de ser Robin?</wording>
+    <choices>
+      <choice>Red Hood</choice>
+      <choice>Batboy</choice>
+      <choice>Halcón Nocturno</choice>
+      <choice correct="yes">Nightwing</choice>
+    </choices>
+  </question>
+
+  <question id="8">
+    <wording>¿Cómo se llama la prisión donde Batman encierra a muchos villanos?</wording>
+    <choices>
+      <choice>Blackgate</choice>
+      <choice correct="yes">Asilo Arkham</choice>
+      <choice>Iron Heights</choice>
+      <choice>Rikers Island</choice>
+    </choices>
+  </question>
+
+  <question id="9">
+    <wording>¿Quién creó el personaje de Batman?</wording>
+    <choices>
+      <choice correct="yes">Bob Kane y Bill Finger</choice>
+      <choice>Stan Lee</choice>
+      <choice>Steve Ditko</choice>
+      <choice>Jack Kirby</choice>
+    </choices>
+  </question>
+
+  <question id="10">
+    <wording>¿Cuál es el nombre de la empresa de Bruce Wayne?</wording>
+    <choices>
+      <choice>LexCorp</choice>
+      <choice correct="yes">Wayne Enterprises</choice>
+      <choice>Stark Industries</choice>
+      <choice>Oscorp</choice>
+    </choices>
+  </question>
+
+  <question id="11">
+    <wording>¿Quién es el comisario aliado de Batman?</wording>
+    <choices>
+      <choice>Harvey Dent</choice>
+      <choice>John Blake</choice>
+      <choice correct="yes">Jim Gordon</choice>
+      <choice>Ben Urich</choice>
+    </choices>
+  </question>
+
+  <question id="12">
+    <wording>¿Qué animal inspira el traje de Batman?</wording>
+    <choices>
+      <choice correct="yes">Murciélago</choice>
+      <choice>León</choice>
+      <choice>Lobo</choice>
+      <choice>Águila</choice>
+    </choices>
+  </question>
+
+  <question id="13">
+    <wording>¿Cómo se llama el amor más conocido de Batman?</wording>
+    <choices>
+      <choice>Lois Lane</choice>
+      <choice>Mary Jane</choice>
+      <choice>Wanda Maximoff</choice>
+      <choice correct="yes">Selina Kyle</choice>
+    </choices>
+  </question>
+
+  <question id="14">
+    <wording>¿Cuál de estos no es un enemigo de Batman?</wording>
+    <choices>
+      <choice correct="yes">Ultron</choice>
+      <choice>Pingüino</choice>
+      <choice>Dos Caras</choice>
+      <choice>Enigma</choice>
+    </choices>
+  </question>
+
+  <question id="15">
+    <wording>¿Qué Robin murió a manos del Joker?</wording>
+    <choices>
+      <choice>Tim Drake</choice>
+      <choice>Damian Wayne</choice>
+      <choice correct="yes">Jason Todd</choice>
+      <choice>Stephanie Brown</choice>
+    </choices>
+  </question>
+
+  <question id="16">
+    <wording>¿Cuál es el apodo de Batman?</wording>
+    <choices>
+      <choice>El justiciero</choice>
+      <choice correct="yes">El caballero oscuro</choice>
+      <choice>El defensor</choice>
+      <choice>El cruzado</choice>
+    </choices>
+  </question>
+
+  <question id="17">
+    <wording>¿Qué ciudad está más relacionada con Superman?</wording>
+    <choices>
+      <choice>Gotham</choice>
+      <choice>Star City</choice>
+      <choice>Central City</choice>
+        <choice correct="yes">Metrópolis</choice>
+    </choices>
+  </question>
+
+  <question id="18">
+    <wording>¿Quién interpreta a Batman en “The Dark Knight”?</wording>
+    <choices>
+      <choice correct="yes">Christian Bale</choice>
+      <choice>Ben Affleck</choice>
+      <choice>Robert Pattinson</choice>
+      <choice>Michael Keaton</choice>
+    </choices>
+  </question>
+
+  <question id="19">
+    <wording>¿Cuál es el nombre real de El Pingüino?</wording>
+    <choices>
+      <choice>Edward Nygma</choice>
+      <choice>Harvey Dent</choice>
+      <choice correct="yes">Oswald Cobblepot</choice>
+      <choice>Victor Zsasz</choice>
+    </choices>
+  </question>
+
+  <question id="20">
+    <wording>¿Cómo se llama el grupo del que Batman forma parte?</wording>
+    <choices>
+      <choice correct="yes">Liga de la Justicia</choice>
+      <choice>Vengadores</choice>
+      <choice>X-Men</choice>
+      <choice>Guardianes</choice>
+    </choices>
+  </question>
+</test>
